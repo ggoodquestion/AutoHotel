@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Booking"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Booking" />
+        <item
+            android:id="@+id/MyKey"
+            android:icon="@android:drawable/ic_lock_idle_lock"
+            android:title="MyKey" />
+        <item
+            android:id="@+id/Map"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Map" />
+
+    </group>
+
+
+
+</menu>
